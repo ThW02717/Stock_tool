@@ -1,13 +1,9 @@
 ﻿# Stock_tool
 # 專案說明
 
-此專案包含以下幾個主要腳本與檔案：
-
----
-
 ## myStrategy.py
 
-此腳本會回傳交易動作：`buy` 或 `sell`。  
+回傳交易動作：`buy` 或 `sell`。  
 其中的參數會透過 `bestParamByExhaustiveSearch.py` 進行最佳化。
 
 ---
@@ -26,5 +22,3 @@ python rrEstimate.py 0050.csv
 1. **安裝/下載專案**：將此儲存庫 `git clone` 或下載到本地。
 2. **準備資料**：確保你的 CSV 檔案（如 `0050.csv`）已經放在專案目錄中。
 3. **執行腳本**：依照上方說明，先用 `bestParamByExhaustiveSearch.py` 找到最佳參數，再執行 `rrEstimate.py` 或 `myStrategy.py` 進行模擬交易。
-
-你可以直接將上方 Markdown 語法複製到你的 README.md 檔案中，並依照實際狀況調整文字與檔案名稱。
